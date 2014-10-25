@@ -6,7 +6,7 @@ This is a python script that crawls the Daily Mail website for headlines, you ca
 
 1. create a virtual environment
 2. `pip install -r requirements.txt`
-3. edit crawler.py lines #8 and #9 to set the date range (default is six months so the headlines.json will be ~18Mb)
+3. edit crawler.py line [#9](https://github.com/bertez/basebot/blob/master/crawler.py#L9) to set the date limit (default is six months so the headlines.json will be ~18Mb)
 4. `python crawler.py` and wait
 
 The script generates *headlines.json*. This file is already generated in this repo with headlines from the last six months.
