@@ -2,7 +2,7 @@
 
 This is a python script that crawls the Daily Mail website for headlines, you can set the initial and end date.
 
-The script generates *headlines.json*.
+The script generates *headlines.json*. It is already generated in this repo with headlines from the last six months.
 
 # generator.js
 
@@ -12,7 +12,7 @@ This is a node module that uses the *headlines.json* data to generate random fak
 
 ```javascript
 
-	var generator = require('./generator.js');
+	var generator = require('./generator');
 
 	//random headline
 	generator.generate();
