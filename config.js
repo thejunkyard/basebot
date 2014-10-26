@@ -9,7 +9,7 @@ config.junkyard.port = 3000;
  * Register your bot on a Junkyard and you will be provided a secret to enter here
  * This secret identifies your bot.
  *************************/
-config.bot.secret = '203c9c7d-377d-42dd-ad7a-f45708f3db8f';
+config.bot.secret = 'INSERT SECRET HERE';
 
 
 // Don't Edit Me
