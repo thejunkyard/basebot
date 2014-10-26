@@ -1,22 +1,23 @@
 {
   "name": "basebot",
-  "version": "1.0.0",
-  "description": "Just a Daily Mail headline generator",
-  "main": "generator.js",
+  "version": "0.0.1",
+  "description": "A Node Shell for a Junkyard chatterbot.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bertez/basebot.git"
+    "url": "https://github.com/thejunkyard/basebot.git"
   },
   "keywords": [
-    "markov"
+    "bot",
+    "chatter"
   ],
-  "author": "Berto Yáñez (berto@ber.to)",
-  "license": "ISC",
+  "author": "Dan Schultz",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bertez/basebot/issues"
+    "url": "https://github.com/thejunkyard/basebot/issues"
   },
-  "homepage": "https://github.com/bertez/basebot"
+  "homepage": "https://github.com/thejunkyard/basebot"
 }
