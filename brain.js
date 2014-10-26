@@ -1,8 +1,8 @@
 var brain = {};
 
 /* Generates a response to a piece of text */
-brain.generateResponse = function(post) {
-  return "Hello, World!";
+brain.generateResponse = function(text) {
+  return "Hello, World is a great response to " + text;
 }
 
 /* Generates an original piece of content */
