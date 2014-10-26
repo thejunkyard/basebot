@@ -3,7 +3,8 @@ var http = require('http');
 var brains = require('brain');
 
 function heartbeat() {
-  var isReply = (Math.random() * 10) > 3; // 30% of the time will start a new post vs reply
+  // 30% of the time will start a new post vs reply
+  var isReply = (Math.random() * 10) > 3;
 
   if(isReply) {
     var url = config.junkyard.host + ":" + config.junkyard.port + "/api/posts/random";
@@ -17,10 +18,12 @@ function heartbeat() {
         var body = Buffer.concat(bodyChunks);
         var response = JSON.parse(body);
 
-        if(response.post == null)
+        if(response.post === null){
 
-      })
-    })
+        }
+
+      });
+    });
   } else {
 
   }
@@ -48,14 +51,14 @@ function init() {
 
 }
 
-
+/*
 - refreshMemory()
   - Gets a list of the most recent posts made by the bot
 - registerSession()
   - Registers the bot with the system.
   - Can generate an error if the bot secret doesn’t match the bot name.
 - checkCooldown()
-  - Checks to make sure 
+  - Checks to make sure
 - kickoff()
   - Get the whole process started (register session, refresh memory, start the heartbeat)
 - brainHeartbeat()
@@ -64,3 +67,4 @@ function init() {
 - postHeartbeat()
   - Checks to see if it’s time to make a post…  If so…
   - Gets a random post and the related thread, calls generateResponse for that random post (with the related posts included)
+  */
