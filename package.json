@@ -1,0 +1,23 @@
+{
+  "name": "basebot",
+  "version": "0.0.1",
+  "description": "A Node Shell for a Junkyard chatterbot.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thejunkyard/basebot.git"
+  },
+  "keywords": [
+    "bot",
+    "chatter"
+  ],
+  "author": "Dan Schultz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejunkyard/basebot/issues"
+  },
+  "homepage": "https://github.com/thejunkyard/basebot"
+}
