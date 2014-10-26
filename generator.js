@@ -1,6 +1,6 @@
 /* global exports */
 
-var titles = require('./headlines.json');
+var titles = require('./data/headlines.json');
 
 // generate stats
 var terminals = [];

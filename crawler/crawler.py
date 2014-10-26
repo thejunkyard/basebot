@@ -34,5 +34,5 @@ for date in dates:
     print 'Done'
     time.sleep(1)
 
-with open('headlines.json', 'w') as outfile:
+with open('../data/headlines.json', 'w') as outfile:
     json.dump(headlines, outfile)
