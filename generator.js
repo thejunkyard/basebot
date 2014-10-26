@@ -23,12 +23,18 @@ for (var i = 0; i < titles.length; i++) {
     }
 }
 
+// helpers
 var choice = function (array) {
     return array[Math.floor(array.length * Math.random())];
 };
 
+var num = function(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+};
+
+// the generator
 var make_headline = function (max_length, initial) {
-    var min_words = 20;
+    var min_words = num(5, 20);
     var word;
 
     max_length = max_length || 140;
