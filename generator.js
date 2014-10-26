@@ -8,7 +8,7 @@ var startwords = [];
 var wordstats = {};
 
 for (var i = 0; i < titles.length; i++) {
-    var words = titles[i].split(' ');
+    var words = titles[i].split(/\s+/);
     var words_length = words.length - 1;
 
     terminals.push(words[words_length]);
